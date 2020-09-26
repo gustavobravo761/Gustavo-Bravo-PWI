@@ -1,0 +1,16 @@
+* {
+  font-family: "Righteous", cursive, "Roboto", sans-serif;
+}
+textarea {
+  resize: none;
+}
+body {
+  position: relative;
+  padding-top: 56px;
+}
+.jumbotron-bg {
+  background-color: black;
+}
+.ml-x {
+  margin-left: 12rem;
+}

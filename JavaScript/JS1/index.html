@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea JS</title>
+  </head>
+  <body>
+    <script>
+      const alumno = {
+        nombre: "Gustavo",
+        apellido: "Bravo",
+        edad: 26,
+        nacimiento: "10/11/1993",
+        musica: [
+          { genero: "Rock", puntuacion: 10 },
+          { genero: "Electronica", puntuacion: 7 },
+        ],
+        hobbies: ["Videojuegos", "Series", "Tecnologia"],
+      };
+      for (var i = 0; i < alumno.hobbies.length; i++) {
+        document.write(`${alumno.hobbies[i]} `);
+      }
+      document.write(
+        `<h1 style="color:blue">${alumno.nombre} ${alumno.apellido}</h1>`
+      );
+      document.write(`Tengo ${alumno.edad} años<br>`);
+      document.write(`Mis hobbies son : ${alumno.hobbies.length}<br>`);
+      document.write(`Mi musica favorita : ${alumno.musica[0].genero}`);
+    </script>
+    <footer>
+      Copyright By Gustavo Bravo
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+  </body>
+</html>
